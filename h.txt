@@ -179,3 +179,76 @@
   179  git status
   180  git commit -m "2ie commit git status!"
   181  history > h.txt
+  182  git branch histo
+  183  git branch
+  184  ls
+  185  git checkout histo
+  186  git branch
+  187  git status
+  188  git add h.txt 
+  189  git commit -m "commit in histo"
+  190  ls
+  191  git status
+  192  git checkout main
+  193  ls
+  194  git checkout histo
+  195  ls
+  196  git status
+  197  git add fch_3
+  198  git commit -m "Modif dans histo"
+  199  ls
+  200  git status
+  201  git checkout main
+  202  ls
+  203  git status
+  204  git checkout histo
+  205  git rebase main
+  206  git checkout main
+  207  git rebase histo
+  208  git status
+  209  ls
+  210  git branch nv_hist
+  211  git checkout nv_hist
+  212  history > nv_h.txt
+  213  ls
+  214  checkout main
+  215  git checkout main
+  216  git status
+  217  git add fch_1
+  218  git commit "modif fch_1..."
+  219  git commit -m "modif fch_1..."
+  220  git checkout nv_hist
+  221  git add nv_h.txt 
+  222  git status
+  223  git status
+  224  git add fch_1
+  225  git status
+  226  git commit -m "leads to merge ?"
+  227  git status
+  228  ls
+  229  git checkout main
+  230  ls
+  231  git rebase nv_hist
+  232  git rebase --abort
+  233  git merge nv_hist
+  234  ls
+  235  git merge --abort
+  236  git rebase nv_hist
+  237  git rebase --abort
+  238  git merge --abort
+  239  git merge nv_hist
+  240  git merge --abort
+  241  git rebase nv_hist
+  242  git rebase --abort
+  243  git rebase nv_hist
+  244  git status
+  245  git add fch_1
+  246  git rebase --continue
+  247  ls
+  248  git checkout nv_hist
+  249  ls
+  250  git checkout his
+  251  git checkout histo
+  252  ls
+  253  git checkout main
+  254  history > h.txt
