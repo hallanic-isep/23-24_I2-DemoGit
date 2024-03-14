@@ -1,0 +1,181 @@
+    1  ls
+    2  cd \!Divers/
+    3  ls
+    4  cd ../Bilal/
+    5  ls
+    6  exit
+    7  pws
+    8  pwd
+    9  ls
+   10  cd /c/HorsGoogleDrive/22-23_I1-Python/
+   11  mkdir vcpkg
+   12  cd vcpkg/
+   13  git clone https://github.com/Microsoft/vcpkg.git
+   14  ls
+   15  ls -a
+   16  cd vcpkg/
+   17  ls
+   18  ls -a
+   19  cd ../..
+   20  cd ../Ynov_22-23_B
+   21  cd ../Ynov_22-23_B3-C++2D/
+   22  cd _vcpkg/
+   23  ls
+   24  .\vcpkg\bootstrap-vcpkg.bat
+   25  cd ..
+   26  .\vcpkg\bootstrap-vcpkg.bat
+   27  ./vcpkg/bootstrap-vcpkg.bat
+   28  ./_vcpkg/bootstrap-vcpkg.bat
+   29  cd-
+   30  cd _vcpkg/
+   31  ls
+   32  .\vcpkg install sfml
+   33  ./vcpkg install sfml
+   34  vcpkg install sfml:x64-windows
+   35  ./vcpkg install sfml:x64-windows
+   36  path
+   37  $path
+   38  env
+   39  exit
+   40  pwd
+   41  cd C:\HorsGoogleDrive\PyCharmProjects\23-24.A1.Prerentree_venv
+   42  cd /C/HorsGoogleDrive/PyCharmProjects/23-24.A1.Prerentree_venv
+   43  ls
+   44  cd venv
+   45  ls
+   46  cd ..
+   47  ls
+   48  pwd
+   49  git --version
+   50  git config --list
+   51  ls ~
+   52  ls ~/.gitconfig 
+   53  cat ~/.gitconfig 
+   54  vi
+   55  nano
+   56  history
+   57  tree ~/.ssh
+   58  tree ~/.ssh/
+   59  ls ~/.ssh/
+   60  ls ~/.ssh/known_hosts 
+   61  cat ~/.ssh/known_hosts 
+   62  ssh-keygen -t rsa -b 4096
+   63  ls ~/.ssh/
+   64  ls
+   65  cd ../"23-24.A1.Prerentree_venv - git"
+   66  ls
+   67  git init
+   68  ls
+   69  git add juste_prix.py
+   70  git commit -m "Commit initial"
+   71  git status
+   72  git branch
+   73  git log
+   74  git log --oneline
+   75  git status
+   76  git diff
+   77  ls
+   78  ls -l
+   79  ls -al
+   80  git remote add origin https://github.com/hallanic-isep/23-24.A1.Prerentree_venv.git
+   81  git remote -v
+   82  git push origin main
+   83  git push origin master
+   84  id
+   85  cat ~/.ssh/id_rsa.pub 
+   86  git push origin master
+   87  git remote add origin https://github.com/hallanic-isep/23-24.A1.Prerentree_venv.git
+   88  git remote -v
+   89  git push origin master
+   90  git remote add origin git@github.com:hallanic-isep/23-24.A1.Prerentree_venv.git
+   91  cat ~/.gitconfig 
+   92  ls git remote remove origin
+   93  git remote remove origin
+   94  git remote add origin git@github.com:hallanic-isep/23-24.A1.Prerentree_venv.git
+   95  git remote -v
+   96  git push origin master
+   97  history
+   98  cd ../"23-24.A1.Prerentree_venv - clône"
+   99  git clone https://github.com/hallanic-isep/23-24.A1.Prerentree_venv.git
+  100  ls
+  101  ls -al
+  102  cd 23*
+  103  ls
+  104  ls -al
+  105  git status
+  106  git add juste_prix.py 
+  107  git status
+  108     70  git commit -m "Commit initial"
+  109  git commit -m "MaJ depuis le clone..."
+  110  cd ../..
+  111  ls
+  112  cd '23-24.A1.Prerentree_venv - git'
+  113  git status
+  114  vi juste_prix.py 
+  115  git status
+  116  git add juste_prix.py 
+  117  git status
+  118  git commit -m "MaJ..."
+  119  git diff
+  120  git diff --cache
+  121  git diff --stage
+  122  git diff --staged
+  123  git push origin master
+  124  exit
+  125  pwd
+  126  ls
+  127  exit
+  128  ls
+  129  cd C:\HorsGoogleDrive\Git_demo
+  130  cd /C/HorsGoogleDrive/Git_demo
+  131  ls
+  132  cat coucou > fch_1
+  133  echo coucou > fch_1
+  134  echo les > fch_2
+  135  echo amis > fch_3
+  136  ls
+  137  git init
+  138  ls
+  139  ls -a
+  140  git status
+  141  history
+  142  git status
+  143  git branch -m master main
+  144  git status
+  145  git config --global init.defaultBranch main
+  146  ls
+  147  git add fch_1 fch2
+  148  git add fch_1 fch_2
+  149  git status
+  150  od fch_1
+  151  od fch_3
+  152  od fch_2
+  153  od -x fch_2
+  154  od -x fch_3
+  155  od -x fch_1
+  156  cat fch_
+  157  cat fch_2
+  158  od -b fch_1
+  159  od -b fch_3
+  160  od -bx fch_3
+  161  od -bx fch_1
+  162  od -bx fch_2
+  163  od -x1 fch_2
+  164  od -t x1 fch_2
+  165  od -t x1 fch_3
+  166  od -t x1 fch_1
+  167  cat fch_3
+  168  git commit
+  169  git commit -m "Commit initial"
+  170  git status
+  171  ls
+  172  git status
+  173  git restore fch_2
+  174  git status
+  175  git status
+  176  git add fch_2 fch_3
+  177  git status
+  178  git add fch_2 fch_3
+  179  git status
+  180  git commit -m "2ie commit git status!"
+  181  history > h.txt
