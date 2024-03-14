@@ -252,3 +252,45 @@
   252  ls
   253  git checkout main
   254  history > h.txt
+  255  git status
+  256  git add .
+  257  git status
+  258  git commit -m "maj hist"
+  259  git config --list --show-origin
+  260  ls
+  261  mkdir demo_projet
+  262  ls
+  263  mv fch* *.txt demo_projet/
+  264  ls
+  265  cd demo_projet/
+  266  ls
+  267  ls -a
+  268  cd ..
+  269  git status
+  270  ls -a
+  271  mv .git/ demo_projet/
+  272  git status
+  273  cd demo_projet/
+  274  git status
+  275  ls
+  276  git config user.name "Hervé ALLANIC"
+  277  git config user.email herve.allanic@laposte.net
+  278  git config
+  279  git config --list
+  280  git help
+  281  git help branch
+  282  git help branch
+  283  git remote add origin https://github.com/hallanic-isep/23-24_I2-DemoGit.git
+  284  git help push
+  285  git push -u origin main
+  286  id
+  287  git config --list
+  288  git remote set-url https://hallanic-isep@github.com/hallanic-isep/23-24_I2-DemoGit.git
+  289  git remote set-url origin https://hallanic-isep@github.com/hallanic-isep/23-24_I2-DemoGit.git
+  290  git status
+  291  git push -u origin main
+  292  git status
+  293  git config --list
+  294  git config --list --show-origin 
+  295  git status
+  296  history > h.txt 
